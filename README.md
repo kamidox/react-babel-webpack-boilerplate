@@ -1,5 +1,13 @@
 This repo is a boilerplate for React-Babel-Webpack project. You could use it as a base to build your own web app.
 
+## Additional features
+
+This repo is fork from [ruanyf/react-babel-webpack-boilerplate](https://github.com/ruanyf/react-babel-webpack-boilerplate) with following additional features:
+
+- Move static files to `public` directory
+- Test framework by using Mocha/Enzyme/chai/sinon
+- Script to deploy app to github pages (You need install python and python package named `ghp-import`)
+
 ## Features
 
 - Equip with React, ES6 & Babel 6

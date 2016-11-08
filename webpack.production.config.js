@@ -9,7 +9,7 @@ module.exports = {
     path.resolve(__dirname, 'app/main.jsx'),
   ],
   output: {
-    path: __dirname + '/build',
+    path: __dirname + '/public',
     publicPath: '/',
     filename: './bundle.js'
   },
@@ -29,9 +29,5 @@ module.exports = {
         warnings: false
       }
     }),
-    new CopyWebpackPlugin([
-      { from: './app/index.html', to: 'index.html' },
-      { from: './app/main.css', to: 'main.css' }
-    ]),
   ]
 };

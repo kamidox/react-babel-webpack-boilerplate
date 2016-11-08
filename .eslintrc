@@ -1,10 +1,11 @@
 {
   "env": {
     "browser": true,
-    "node": true
+    "node": true,
+		"jasmine": true
   },
-  ecmaFeatures: {
-    jsx: true
+  "ecmaFeatures": {
+    "jsx": true
   },
   "globals": {
     "window": true,
